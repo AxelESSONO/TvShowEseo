@@ -4,13 +4,13 @@ package com.eseo.tvshow.model.remote
 import com.google.gson.annotations.SerializedName
 
 data class TvShowResponse(
-    //@SerializedName("page")
+    @SerializedName("page")
     val page: Int,
 
-    //@SerializedName("pages")
+    @SerializedName("pages")
     val pages: Int,
 
-    //@SerializedName("total")
+    @SerializedName("total")
     val total: String,
 
     @SerializedName("tv_shows")
