@@ -1,9 +1,9 @@
-package com.eseo.tvshow.model.remote
+package com.eseo.tvshow.data.remote
 
 
 import com.google.gson.annotations.SerializedName
 
-data class TvShowResponse(
+data class TvShowResponseDto(
     @SerializedName("page")
     val page: Int,
 
@@ -14,5 +14,5 @@ data class TvShowResponse(
     val total: String,
 
     @SerializedName("tv_shows")
-    val tvShows: List<TvShow>
+    val tvShows: List<TvShowDto>
 )

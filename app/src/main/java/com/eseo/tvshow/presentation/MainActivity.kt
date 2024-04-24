@@ -1,4 +1,4 @@
-package com.eseo.tvshow.view
+package com.eseo.tvshow.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

@@ -1,9 +1,9 @@
-package com.eseo.tvshow.model.remote
+package com.eseo.tvshow.data.remote
 
 
 import com.google.gson.annotations.SerializedName
 
-data class TvShow(
+data class TvShowDto(
     @SerializedName("country")
     val country: String,
     @SerializedName("end_date")
