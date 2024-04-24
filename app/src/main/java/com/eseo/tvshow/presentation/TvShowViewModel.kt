@@ -21,5 +21,4 @@ class TvShowViewModel(
     ) = viewModelScope.launch(Dispatchers.IO){
         _tvShowFlow?.value = repository.getTvShows(page)
     }
-
 }
